@@ -5,3 +5,4 @@ cd ./jpeg-9d
 ./configure --enable-shared
 make
 sudo make install
+sudo ln -s /usr/local/lib/libjpeg* /usr/lib
